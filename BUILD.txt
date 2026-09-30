@@ -1,0 +1,7 @@
+Run in CMD.exe (not PowerShell):
+  npm install
+  npm run build
+Then open out/index.html or serve out/ folder statically.
+
+If npm.ps1 blocked: open CMD, cd to project, run above.
+Or in PowerShell: Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
